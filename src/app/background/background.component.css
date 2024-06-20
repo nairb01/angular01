@@ -1,0 +1,22 @@
+/* src/app/background/background.component.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background {
+    background-image: url('/image/background.jpg');
+    background-size: cover; /* Make sure the background covers the entire div */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:center; */
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black; /* Optional: add text shadow for better readability */
+    background-attachment: fixed;  
+}
+
+  
